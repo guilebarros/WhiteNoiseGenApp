@@ -22,6 +22,8 @@ public:
 private:
 
     juce::Random random;
+    juce::Slider levelSlider;
+    juce::Label levelLabel;
 
 
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (MainComponent)
